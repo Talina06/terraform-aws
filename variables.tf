@@ -14,4 +14,7 @@ variable "private_subnet_cidr" {
 	description = "Private Subnet CIDR"
 	default = "10.10.0.0/24"
 }
-
+variable "key_name" {
+	description = "AWS VPC Key name"
+	default = "vpc_aws_pub"
+}
